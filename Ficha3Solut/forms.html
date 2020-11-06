@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta style="background-color: blue; text-align: center">
     <title>Formulario de Inscrição</title>
 </head>
 <body style="background-color: #72b7f7;">
@@ -14,28 +13,26 @@
         </a>
         <br>
         <hr>  
-    <nav class="menu">
-        <a href="./exercicio.html">SOBRE NÓS</a> 
-        <a href="./multimedia.html">Multimedia</a>
-        <a href="./forms.html">Formulário de Inscrição</a>
-    </nav>
-    </header>
- <main>
- <form action="" method="get" class="form-example">
-    <fieldset>
-        
-    
-        <legend>Formulario de contacto CESAE</legend>
-        <br>
-        <div class="form-example">
-          <label for="name">Nome: </label>
-          <input type="text" name="name" id="name" required>
-        </div>
-        <div class="form-example">
-          <label for="email">e-mail: </label>
-          <input type="email" name="email" id="email" required>
-        </div>
-        <br>
+        <nav class="menu">
+            <a href="./index.html">SOBRE NÓS</a> 
+            <a href="./multimedia.html">Multimedia</a>
+            <a href="./forms.html">Formulário de Inscrição</a>
+        </nav>
+    </header><br>
+    <main>
+        <form action="" method="get" class="form-example">
+        <fieldset>
+            <legend>Formulario de contacto CESAE</legend>
+            <br>
+            <div class="form-example">
+                <label for="name">Nome: </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-example">
+                <label for="email">e-mail: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <br>
             <form >
                 <legend>Género</legend>
                  <label>
@@ -46,35 +43,30 @@
             </form>
             <br><br>
 
-            <label for="birthday">Data atual:</label>
-            <input type="date" id="today" name="today"><br><br>
+            <label for="date">Data atual:</label>
+                <input type="date" id="today" name="today"><br><br>
 
             <label for="turma-choice">Turma:</label>
-            <input list="tipo-t" id="turma-choice" name="turma-choice" />
+                <input list="tipo-t" id="turma-choice" name="turma-choice" />
             <br><br>
             <datalist id="tipo-t">
                 <option value="Web Developer & Mobile">
                 <option value="Outra">
             </datalist>
 
-
             <label for="story">Mensagem:</label>
-
-        <textarea id="story" name="story"
-          rows="5" cols="33">
-            
-        </textarea>
-        <br><br>
-        <br><br>
+            <textarea id="story" name="story" rows="5" cols="33">
+            </textarea>
+            <br><br>
+            <br><br>
             <div class="form-example">
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Limpar">
             </div>
 
         </fieldset>
-
-    </form>
-    <footer>Copyright 2020 &copy GGA Student </footer>
-</main>
+        </form>
+        <footer>Copyright 2020 &copy GGA Student </footer>
+    </main>
 </body>
 </html>

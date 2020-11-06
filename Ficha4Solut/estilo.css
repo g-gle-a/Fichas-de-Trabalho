@@ -4,17 +4,15 @@
 
 
 body {
-background-color: lightgrey;
+background-color: bisque;
 color: blue;
 padding: 20px;
-background-image: url("img/Peque_1-e-meio.jpg");
 background-size: 1400px;
 width : 1000px;
 height: 1000px;
 }
-
-p {
-text-align: center;
+footer{
+    text-align: center;
 }
 
 #alinhaEsquerda {
