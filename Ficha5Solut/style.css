@@ -1,0 +1,18 @@
+/*=====  CSS exemplo ficha 4  ======*/
+
+
+body {
+    background-color: bisque;
+    color: blue;
+    padding: 20px;
+    font-family: cursive, "URW Chancery L";
+    width : 1000px;
+    height: 1000px;
+    }
+    footer{
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
