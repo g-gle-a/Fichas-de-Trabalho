@@ -1,0 +1,49 @@
+
+
+/*=====  CSS exemplo ficha 4  ======*/
+
+
+body {
+background-color: lightgrey;
+color: blue;
+padding: 20px;
+background-image: url("img/Peque_1-e-meio.jpg");
+background-size: 1400px;
+width : 1000px;
+height: 1000px;
+}
+
+p {
+text-align: center;
+}
+
+#alinhaEsquerda {
+    text-align: left;
+}
+#alinhaDireita {
+    text-align: right;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+header h1 {
+    color: red;
+}
+
+main h1 {
+    color: blue;
+}
+
+.vermelho {
+    color: red;
+    background-color: lightseagreen;
+    border: 2px solid
+}
+
+.azul {
+    color: blue;
+    background-color: lightseagreen;
+    border: 2px dashed black
+}
